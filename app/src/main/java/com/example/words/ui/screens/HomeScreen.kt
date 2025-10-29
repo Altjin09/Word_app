@@ -142,8 +142,8 @@ fun HomeScreen(
                     modifier = Modifier.fillMaxWidth(),
                     horizontalArrangement = Arrangement.SpaceEvenly
                 ) {
-                    PurpleButton("ДАРАА", enabled = hasWord) { vm.next() }
                     PurpleButton("ӨМНӨХ", enabled = hasWord) { vm.prev() }
+                    PurpleButton("ДАРАА", enabled = hasWord) { vm.next() }
                 }
 
                 Spacer(Modifier.height(12.dp))
